@@ -1,12 +1,10 @@
-import { Header } from "./components/layout/Header"
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import './index.css'
+import App from './App.tsx'
 
-function App() {
-
-  return (
-    <>
-      <Header />
-    </>
-  )
-}
-
-export default App
+createRoot(document.getElementById('root')!).render(
+  <StrictMode>
+    <App />
+  </StrictMode>,
+)
