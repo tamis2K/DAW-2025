@@ -1,4 +1,4 @@
-import { Highlight } from "./cases/movies/components/highlight";
+import { Highlight } from "./components/layout/highlight";
 import { MovieContent } from "./cases/movies/components/movie-content";
 import { Footer } from "./components/layout/footer";
 import { Header } from "./components/layout/header";
